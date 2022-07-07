@@ -67,3 +67,5 @@ export const registerUserSync = (nombre, email, pass) => {
        }
     }
 }
+
+

@@ -13,9 +13,9 @@ const NavBars = () => {
         <Container>
           <Nav className="me-auto">
             
-            <Nav.Link ><Link  to="/" style={{color: "green"}}>registrate</Link></Nav.Link>{tab}
-            <Nav.Link ><Link  to="/login" style={{color: "green"}}>Login</Link></Nav.Link>{tab}
-            <Nav.Link ><Link  to="/home" style={{color: "green"}}>Home</Link></Nav.Link>{tab}
+            {/* <Nav.Link ><Link  to="/" style={{color: "green"}}>registrate</Link></Nav.Link>{tab} */}
+            {/* <Nav.Link ><Link  to="/login" style={{color: "green"}}>Login</Link></Nav.Link>{tab} */}
+            <Nav.Link ><Link  to="/Home" style={{color: "green"}}>Home</Link></Nav.Link>{tab}
             <Nav.Link ><Link  to="/Crud" style={{color: "green"}}>Crud</Link></Nav.Link>
              </Nav>
              <Button
@@ -43,7 +43,7 @@ const NavBars = () => {
                 right: 0,
                 transform: "translate(25%, 25%)",
               }}
-            >
+            >1
               
             </div>
           </Button>

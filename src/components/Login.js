@@ -53,7 +53,7 @@ const Login = () => {
                         <Button variant="contained" color="success"  onClick={()=> dispatch(GoogleLogin())} style={{margin: "2%"}}>
                             Google
                         </Button>
-                        <Link  to="/" style={{color: "green"}}>
+                        <Link  to="/register" style={{color: "green"}}>
                         <Button variant="contained" color="success" type="submit" style={{margin: "2%"}}>
                             registrate si no tienes cuenta
                         </Button>

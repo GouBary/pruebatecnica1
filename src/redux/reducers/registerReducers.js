@@ -15,9 +15,7 @@ export const registerReducers = (state = {}, action) => {
                 pass: action.payload.pass
             }
         case typesLogin.logout:
-            return {
-
-            }
+            return []
 
 
         default:
